@@ -23,10 +23,10 @@
         Buchstabe
       </th>
     </tr>
-    <tr *ngFor="let count of counter">
-      <td>{{ count }}</td>
+    <tr *ngFor="let index of alphabet">
+      <td>{{ index.num }}</td>
       <td>
-       hallo 
+       {{ index.letter }}
       </td>
     </tr>
   </table>
