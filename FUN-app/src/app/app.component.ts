@@ -13,8 +13,6 @@ export class AppComponent {
     letter: string
   }[];
 
-
-
   constructor(){
     this.alphabet = [{num: 0, letter: '?'}];
   }
