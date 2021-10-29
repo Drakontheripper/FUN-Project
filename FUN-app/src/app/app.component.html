@@ -1,19 +1,19 @@
 <div>
   <table>
     <tr>
-      <td>1</td>
+      <td>Filler</td>
       <td>
-        <button>Add</button>
+        <button class="btn btn-primary" style="padding: 4px;" (click) = "onClick()">Add</button>
       </td>
     </tr>
     <tr>
-      <td>3</td>
+      <td>Alphabet</td>
       <td>
-        <button (click) = "onClick()">Add</button>
+        <button class="btn btn-primary" style="padding: 4px;" (click) = "onClick()">Add</button>
       </td>
     </tr>
   </table>
-
+  
   <table>
     <tr>
       <th>
@@ -23,10 +23,10 @@
         Buchstabe
       </th>
     </tr>
-    <tr *ngFor="let index of alphabet">
-      <td>{{ index.num }}</td>
+    <tr *ngFor="let alphabetOutput of alphabet">
+      <td>{{ alphabetOutput.num }}</td>
       <td>
-       {{ index.letter }}
+       {{ alphabetOutput.letter }}
       </td>
     </tr>
   </table>

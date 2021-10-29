@@ -12,7 +12,8 @@ export class AppComponent {
     num: number,
     letter: string
   }[];
-  //index: number;
+
+
 
   constructor(){
     this.alphabet = [{num: 0, letter: '?'}];
@@ -26,7 +27,5 @@ export class AppComponent {
       this.alphabet.push({num: 204, letter: "Error"});
       this.i = this.i + 1;
     }
-   // this.index = this.index + 1;
-  //  this.counter.push(this.index);
-}
+  }
 }
