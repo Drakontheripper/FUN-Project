@@ -26,4 +26,8 @@ export class AppComponent {
       this.i = this.i + 1;
     }
   }
+  //frage für das nächste mal: Wie kriege ich dies jetzt nur für einen Button hin? 
+  //Heißt beispiel ein Counter für die Buttons einbauen der nur für den einen Button gilt! 
+  //Habe den Counter geschaft zu Programmieren aber wurde immer für beide gezählt.
+  //Sagen wir mal ich habe den Code verloren xD Sollte aber leicht reproduzierbar sein.
 }
